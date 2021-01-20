@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "q0Pe3BabzlkaPpg14WDScZrcWqF2hwX5E6HXY7pp0+urEuclnJrJT4B5EITec2LJ5N4ZH6x6xLZD4XJ4rK4KQg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\Shared.Util\\Shared.Util.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
