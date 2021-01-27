@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
 using Domain.Interfaces.Interface;
+using Domain.Modelos;
+using Domain.Modelos.Watson;
 using Flurl.Http;
-using Shared.Util.Interfaces;
 using System.Threading.Tasks;
 using TreinamentoWatson.Interfaces;
 
@@ -11,31 +12,52 @@ namespace Domain
     {
         private readonly IWatsonAgent _watsonAgent;
         private readonly IMapper _mapper;
-        private readonly IApplicationInsights _applicationInsights;
 
-        public WatsonService(IWatsonAgent watsonAgent, IMapper mapper, IApplicationInsights applicationInsights)
+        public WatsonService(IWatsonAgent watsonAgent, IMapper mapper)
         {
             _watsonAgent = watsonAgent;
             _mapper = mapper;
-            _applicationInsights = applicationInsights;
         }
-        public async Task<string> EnviarMensagemAoWatson(string mensagem)
+        public async Task<OutputConversaWatson> EnviarMensagemAoWatson(InputConversaWatson mensagem)
         {
             try
             {
                 var mensagemRespostaWatson = await _watsonAgent.EnviarMensagemAoWatson(mensagem);
                 return mensagemRespostaWatson;
             }
-            catch (FlurlHttpTimeoutException ex)
+            catch (FlurlHttpTimeoutException)
             {
-                _applicationInsights.EnviaException(ex);
                 throw;
             }
             catch (FlurlHttpException ex)
             {
-                _applicationInsights.EnviaException(ex);
+                var statusCode = await ex.GetResponseJsonAsync<OutputConversaWatson>();
                 throw;
             }
+        }
+        public InputConversaWatson PreencherMensagemWatson(Mensagem mensagem)
+        {
+            var conversaWatson = new InputConversaWatson
+            {
+                Input = new UserInput
+                {
+                    Texto = mensagem.Texto
+                },
+                //Context = new MessageContext
+                //{
+                //    Global = new MessageContextGlobal
+                //    {
+                //        System = new MessageContextGlobalSystem { UserId = mensagem.Contexto.IdUsuario },
+                //        SessionId = mensagem.Contexto.SessionId
+                //    },
+                //    Skills = new MessageContextSkills
+                //    {
+                //        MainSkillContext = _mapper.Map<MainSkillContext>(mensagem.Contexto)
+                //    }
+                //},
+            };
+
+            return conversaWatson;
         }
     }
 }

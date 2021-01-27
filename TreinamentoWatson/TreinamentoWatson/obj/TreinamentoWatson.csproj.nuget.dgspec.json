@@ -27,7 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\Domain.Modelos\\Domain.Modelos.csproj": {
+                "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\Domain.Modelos\\Domain.Modelos.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -81,11 +85,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\Domain.Interfaces\\Domain.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\Domain.Interfaces\\Domain.Interfaces.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -164,6 +164,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -231,6 +241,10 @@
               "version": "[3.0.1, )"
             },
             "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
               "version": "[5.0.0, )"
             },

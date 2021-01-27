@@ -1,0 +1,12 @@
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Interfaces.deps.json
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Interfaces.dll
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Interfaces.pdb
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Modelos.dll
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\bin\Debug\netcoreapp3.1\Domain.Modelos.pdb
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.csprojAssemblyReference.cache
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.AssemblyInfoInputs.cache
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.AssemblyInfo.cs
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.csproj.CopyComplete
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.dll
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\obj\Debug\netcoreapp3.1\Domain.Interfaces.pdb

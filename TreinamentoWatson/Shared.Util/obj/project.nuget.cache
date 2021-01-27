@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "q0Pe3BabzlkaPpg14WDScZrcWqF2hwX5E6HXY7pp0+urEuclnJrJT4B5EITec2LJ5N4ZH6x6xLZD4XJ4rK4KQg==",
+  "dgSpecHash": "wamyBFba+Lbk32CmbjPuvKXF3d06XJZpIMJUxtb1VwJXqyRWcWps0sQDKZ2Mhuc21XSVH6E2A+MRZMVTJlk2cQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\Shared.Util\\Shared.Util.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []

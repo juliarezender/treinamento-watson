@@ -4,7 +4,7 @@ namespace TreinamentoWatson.Interfaces
 {
     public interface IWatsonTokenAccessAgent
     {
-        Task<string> GerarToken();
+        Task<string> ObterToken();
 
     }
 }

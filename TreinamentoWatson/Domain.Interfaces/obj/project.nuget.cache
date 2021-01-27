@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7qtpDv0Vt3iOFM8kYsWCnfoKq45hj4cqrLh40d0jewQ4pah4xXLzGIBA7F6z4+YCqPDzp8rtmrJAPOGBHcoHIw==",
+  "dgSpecHash": "tG39PfiqB7jtGB6XJhiGx8QOc4x/6RQ2/DpqeV/3ZN0pFl9GGFT5TWEMNNwjb7jsIj4DuWtpygyx0Efi+mURCQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\Domain.Interfaces\\Domain.Interfaces.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

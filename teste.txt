@@ -1,0 +1,5 @@
+URL:
+https://api.us-south.assistant.watson.cloud.ibm.com/instances/9f536208-5a7a-4557-8ace-ad6a8ba75ffe/v2/assistants/f4115cd8-4e38-46d1-b109-af698e7a56cb/message?version=2020-04-01
+
+API Key:
+vaJWCoO956ijqMVQbfgE2VYLm1JgoV8_5mn6-S8Pat9X

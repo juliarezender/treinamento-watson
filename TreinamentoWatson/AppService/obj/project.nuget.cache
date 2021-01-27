@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yyAcQgykPeoOpjK37AjPBuv6r6pEYu1rWy14o5C6QJHWc7kWpVHdYhPTztlHSLTzVSWcuFS88FWfs48ZK/Xh5g==",
+  "dgSpecHash": "LkyGotV0gzgJzTNvKvubzthFcRdcDgujidkALB7GPLAmuZw0NMxCety/UcCMeJiRSeF0leop7/UjROC+dPH9TQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\AppService\\AppService.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

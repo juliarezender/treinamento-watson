@@ -1,9 +1,11 @@
-﻿using System.Threading.Tasks;
+﻿using Domain.Modelos;
+using Domain.Modelos.Watson;
+using System.Threading.Tasks;
 
 namespace TreinamentoWatson.Interfaces
 {
     public interface IWatsonAgent
     {
-        Task<string> EnviarMensagemAoWatson(string mensagem);
+        Task<OutputConversaWatson> EnviarMensagemAoWatson(InputConversaWatson mensagem);
     }
 }

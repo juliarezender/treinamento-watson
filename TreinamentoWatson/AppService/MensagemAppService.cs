@@ -1,6 +1,7 @@
 ﻿using AppService.Interfaces;
 using Domain.Interfaces.Interface;
-using System;
+using Domain.Modelos;
+using Domain.Modelos.Watson;
 using System.Threading.Tasks;
 
 namespace AppService
@@ -14,11 +15,12 @@ namespace AppService
             _conversationService = conversationService;
         }
 
-        public async Task<string> ProcessarMensagemAsync(string mensagemEntrada)
+        public async Task<MensagemSaida> ProcessarMensagemAsync(MensagemEntrada mensagemEntrada)
         {
-            var mensagemResposta = await _conversationService.EnviarMensagemAoWatson(mensagemEntrada);
+            var mensagem = new Mensagem(mensagemEntrada);
+            var mensagemResposta = await _conversationService.EnviarMensagemAoWatson(mensagem);
 
-            return mensagemResposta;
+            return new MensagemSaida(mensagemResposta);
         }
     }
 }

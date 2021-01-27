@@ -1,9 +1,11 @@
-﻿using System.Threading.Tasks;
+﻿using Domain.Modelos;
+using Domain.Modelos.Watson;
+using System.Threading.Tasks;
 
 namespace AppService.Interfaces
 {
     public interface IMensagemAppService
     {
-        Task<string> ProcessarMensagemAsync(string mensagemEntrada);
+        Task<MensagemSaida> ProcessarMensagemAsync(MensagemEntrada mensagemEntrada);
     }
 }
