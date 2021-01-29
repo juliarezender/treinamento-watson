@@ -69,7 +69,7 @@ namespace Domain.Test
         //[Test]
         //public void TesteExcecaoDaFuncaoDeWatsonService()
         //{
-        //    var _instanceWatsonService = _watsonService.EnviarMensagemAoWatson(_inputConversaWatson);
+        //    //var _instanceWatsonService = _watsonService.EnviarMensagemAoWatson(_inputConversaWatson);
 
         //    _mockWatsonAgent.Setup(mock => mock.EnviarMensagemAoWatson(_inputConversaWatson)).Throws(new Exception());
 

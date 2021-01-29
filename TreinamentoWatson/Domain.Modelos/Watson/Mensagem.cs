@@ -4,8 +4,6 @@ namespace Domain.Modelos.Watson
 {
     public class Mensagem
     {
-        public string IdMensagem { get; set; }
-        public Contexto Contexto { get; set; }
         public string Texto { get; set; }
         public List<string> Textos { get; set; }
 

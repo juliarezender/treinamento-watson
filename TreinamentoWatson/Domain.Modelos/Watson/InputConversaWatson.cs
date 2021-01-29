@@ -7,8 +7,5 @@ namespace Domain.Modelos
     {
         [JsonProperty("input", NullValueHandling = NullValueHandling.Ignore)]
         public UserInput Input { get; set; }
-
-        //[JsonProperty("context", NullValueHandling = NullValueHandling.Include)]
-        //public MessageContext Context { get; set; }
     }
 }

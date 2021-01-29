@@ -29,9 +29,8 @@ namespace Domain
             {
                 throw;
             }
-            catch (FlurlHttpException ex)
+            catch (FlurlHttpException)
             {
-                var statusCode = await ex.GetResponseJsonAsync<OutputConversaWatson>();
                 throw;
             }
         }
