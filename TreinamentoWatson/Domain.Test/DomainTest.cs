@@ -52,7 +52,7 @@ namespace Domain.Test
             _fixture = new Fixture();
             _mockWatsonAgent = new Mock<IWatsonAgent>();
             _watsonService = new WatsonService(_mockWatsonAgent.Object, _mapper);
-            _inputConversaWatson = _fixture.Create <InputConversaWatson>();
+            _inputConversaWatson = _fixture.Create<InputConversaWatson>();
 
         }
 
