@@ -30,7 +30,7 @@ namespace AppService.Test
         }
 
         [Test]
-        public void Test1()
+        public void TesteInstanciadoRetornoDeMensagemAppService()
         {
             //_mockConversationService.Setup(mock => mock.EnviarMensagemAoWatson(It.IsAny<Mensagem>())).Returns(_mensagem);
             var instanceAppService = appService.ProcessarMensagemAsync(_mensagemEntrada);
