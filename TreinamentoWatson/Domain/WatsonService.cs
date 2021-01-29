@@ -42,19 +42,7 @@ namespace Domain
                 Input = new UserInput
                 {
                     Texto = mensagem.Texto
-                },
-                //Context = new MessageContext
-                //{
-                //    Global = new MessageContextGlobal
-                //    {
-                //        System = new MessageContextGlobalSystem { UserId = mensagem.Contexto.IdUsuario },
-                //        SessionId = mensagem.Contexto.SessionId
-                //    },
-                //    Skills = new MessageContextSkills
-                //    {
-                //        MainSkillContext = _mapper.Map<MainSkillContext>(mensagem.Contexto)
-                //    }
-                //},
+                }
             };
 
             return conversaWatson;
