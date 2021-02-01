@@ -3,6 +3,7 @@ using Domain.Interfaces.Interface;
 using Domain.Modelos;
 using Domain.Modelos.Watson;
 using Flurl.Http;
+using System;
 using System.Threading.Tasks;
 using TreinamentoWatson.Interfaces;
 
@@ -25,14 +26,11 @@ namespace Domain
                 var mensagemRespostaWatson = await _watsonAgent.EnviarMensagemAoWatson(mensagem);
                 return mensagemRespostaWatson;
             }
-            catch (FlurlHttpTimeoutException)
+            catch(Exception)
             {
-                throw;
+                throw new Exception();
             }
-            catch (FlurlHttpException)
-            {
-                throw;
-            }
+
         }
         public InputConversaWatson PreencherMensagemWatson(Mensagem mensagem)
         {

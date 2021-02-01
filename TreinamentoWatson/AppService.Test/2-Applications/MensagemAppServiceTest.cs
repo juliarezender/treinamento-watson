@@ -15,8 +15,6 @@ namespace AppService.Test
         private Mock<IConversationService> _mockConversationService;
         private MensagemAppService appService;
         private MensagemEntrada _mensagemEntrada;
-        private Task<MensagemSaida> _mensagemSaida;
-        private Task<Mensagem> _mensagem;
 
         [SetUp]
         public void Setup()
@@ -25,14 +23,11 @@ namespace AppService.Test
             _mockConversationService = new Mock<IConversationService>();
             appService = new MensagemAppService(_mockConversationService.Object);
             _mensagemEntrada = _fixture.Create<MensagemEntrada>();
-            _mensagemSaida = _fixture.Create<Task<MensagemSaida>>();
-            _mensagem = _fixture.Create<Task<Mensagem>>();
         }
 
         [Test]
         public void TesteInstanciadoRetornoDeMensagemAppService()
         {
-            //_mockConversationService.Setup(mock => mock.EnviarMensagemAoWatson(It.IsAny<Mensagem>())).Returns(_mensagem);
             var instanceAppService = appService.ProcessarMensagemAsync(_mensagemEntrada);
             // It.IsAny<T> is checking that the parameter is of type T, it can be any instance of type T. It's basically saying,
             // I don't care what you pass in here as long as it is type of T.

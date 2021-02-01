@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Shared.Util\Shared.Util.csproj" />
-    <ProjectReference Include="..\TreinamentoWatson\TreinamentoWatson.csproj" />
+    <ProjectReference Include="..\TreinamentoWatson\Infra.csproj" />
   </ItemGroup>
 
 </Project>

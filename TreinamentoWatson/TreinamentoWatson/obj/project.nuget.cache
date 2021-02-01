@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xvl0j67qBGuFfYCCo/8ECDEHb/APbrjz2GY7Oah9vxzysskjfcIsy9zxr0FRCEqmrFCf21UAbAmLraT8fQiC7A==",
+  "dgSpecHash": "v/ILIPIkf464r7DyS1Fs/7IjBjy3QuehasD1ziJWBZwY4D+T8EQMLvsaxhbDWEGfUgnYBqqhZ0myKK3bW9TknA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\TreinamentoWatson.csproj",
+  "projectFilePath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julia\\.nuget\\packages\\flurl\\3.0.1\\flurl.3.0.1.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\flurl.http\\3.0.1\\flurl.http.3.0.1.nupkg.sha512",

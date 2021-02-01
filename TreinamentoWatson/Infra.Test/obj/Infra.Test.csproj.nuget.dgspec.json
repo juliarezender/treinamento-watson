@@ -149,8 +149,8 @@
               "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\Shared.Util\\Shared.Util.csproj": {
                 "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\Shared.Util\\Shared.Util.csproj"
               },
-              "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\TreinamentoWatson.csproj": {
-                "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\TreinamentoWatson.csproj"
+              "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\Infra.csproj": {
+                "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\Infra.csproj"
               }
             }
           }
@@ -276,12 +276,12 @@
         }
       }
     },
-    "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\TreinamentoWatson.csproj": {
+    "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\TreinamentoWatson.csproj",
-        "projectName": "TreinamentoWatson",
-        "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\TreinamentoWatson.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\Infra.csproj",
+        "projectName": "Infra",
+        "projectPath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\Infra.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\julia\\Desktop\\Treinamento\\treinamento-watson\\TreinamentoWatson\\TreinamentoWatson\\obj\\",
         "projectStyle": "PackageReference",

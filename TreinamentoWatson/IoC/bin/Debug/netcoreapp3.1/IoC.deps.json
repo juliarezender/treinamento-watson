@@ -196,7 +196,7 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
-          "TreinamentoWatson": "1.0.0"
+          "Infra": "1.0.0"
         },
         "runtime": {
           "Domain.dll": {}
@@ -218,18 +218,7 @@
           "Domain.Modelos.dll": {}
         }
       },
-      "Shared.Util/1.0.0": {
-        "dependencies": {
-          "Domain.Interfaces": "1.0.0",
-          "Domain.Modelos": "1.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "5.0.0"
-        },
-        "runtime": {
-          "Shared.Util.dll": {}
-        }
-      },
-      "TreinamentoWatson/1.0.0": {
+      "Infra/1.0.0": {
         "dependencies": {
           "Domain.Modelos": "1.0.0",
           "Flurl.Http": "3.0.1",
@@ -239,7 +228,18 @@
           "Shared.Util": "1.0.0"
         },
         "runtime": {
-          "TreinamentoWatson.dll": {}
+          "Infra.dll": {}
+        }
+      },
+      "Shared.Util/1.0.0": {
+        "dependencies": {
+          "Domain.Interfaces": "1.0.0",
+          "Domain.Modelos": "1.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "5.0.0"
+        },
+        "runtime": {
+          "Shared.Util.dll": {}
         }
       }
     }
@@ -410,12 +410,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Shared.Util/1.0.0": {
+    "Infra/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "TreinamentoWatson/1.0.0": {
+    "Shared.Util/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

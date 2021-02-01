@@ -1,0 +1,50 @@
+using AutoFixture;
+using AutoMapper;
+using Domain;
+using Domain.Modelos;
+using Domain.Modelos.Watson;
+using Moq;
+using NUnit.Framework;
+using System;
+using System.Threading.Tasks;
+using TreinamentoWatson.Interfaces;
+
+namespace AppService.TestsUnitarios._3_Domain
+{
+    public class WatsonServiceTest
+    {
+        private Fixture _fixture;
+        private readonly IMapper _mapper;
+        private Mock<IWatsonAgent> _mockWatsonAgent;
+        private WatsonService _watsonService;
+        private InputConversaWatson _inputConversaWatson;
+
+        [SetUp]
+        public void Setup()
+        {
+            _fixture = new Fixture();
+            _mockWatsonAgent = new Mock<IWatsonAgent>();
+            _watsonService = new WatsonService(_mockWatsonAgent.Object, _mapper);
+            _inputConversaWatson = _fixture.Create<InputConversaWatson>();
+
+        }
+
+        [Test]
+        public void TesteRetornoDaFuncaoDeWatsonService()
+        {
+            var _instanceWatsonService = _watsonService.EnviarMensagemAoWatson(_inputConversaWatson);
+
+            _mockWatsonAgent.Verify(mock => mock.EnviarMensagemAoWatson(_inputConversaWatson), Times.AtLeastOnce);
+
+            Assert.AreEqual(_instanceWatsonService.GetType(), typeof(Task<OutputConversaWatson>));
+        }
+
+        [Test]
+        public void TesteExcecaoDaFuncaoDeWatsonService()
+        {
+            _mockWatsonAgent.Setup(mock => mock.EnviarMensagemAoWatson(_inputConversaWatson)).Throws(new Exception());
+
+            Assert.ThrowsAsync<Exception>(() =>  _watsonService.EnviarMensagemAoWatson(_inputConversaWatson));
+        }
+    }
+}

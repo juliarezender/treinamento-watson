@@ -322,7 +322,7 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
-          "TreinamentoWatson": "1.0.0"
+          "Infra": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Domain.dll": {}
@@ -357,6 +357,24 @@
           "bin/placeholder/Domain.Modelos.dll": {}
         }
       },
+      "Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Domain.Modelos": "1.0.0",
+          "Flurl.Http": "3.0.1",
+          "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Caching.Memory": "5.0.0",
+          "Polly": "7.2.1",
+          "Shared.Util": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infra.dll": {}
+        }
+      },
       "IoC/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -387,24 +405,6 @@
         },
         "runtime": {
           "bin/placeholder/Shared.Util.dll": {}
-        }
-      },
-      "TreinamentoWatson/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Domain.Modelos": "1.0.0",
-          "Flurl.Http": "3.0.1",
-          "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Caching.Memory": "5.0.0",
-          "Polly": "7.2.1",
-          "Shared.Util": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TreinamentoWatson.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TreinamentoWatson.dll": {}
         }
       }
     }
@@ -1044,6 +1044,11 @@
       "path": "../Domain.Modelos/Domain.Modelos.csproj",
       "msbuildProject": "../Domain.Modelos/Domain.Modelos.csproj"
     },
+    "Infra/1.0.0": {
+      "type": "project",
+      "path": "../TreinamentoWatson/Infra.csproj",
+      "msbuildProject": "../TreinamentoWatson/Infra.csproj"
+    },
     "IoC/1.0.0": {
       "type": "project",
       "path": "../IoC/IoC.csproj",
@@ -1053,11 +1058,6 @@
       "type": "project",
       "path": "../Shared.Util/Shared.Util.csproj",
       "msbuildProject": "../Shared.Util/Shared.Util.csproj"
-    },
-    "TreinamentoWatson/1.0.0": {
-      "type": "project",
-      "path": "../TreinamentoWatson/TreinamentoWatson.csproj",
-      "msbuildProject": "../TreinamentoWatson/TreinamentoWatson.csproj"
     }
   },
   "projectFileDependencyGroups": {

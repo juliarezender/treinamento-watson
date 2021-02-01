@@ -66,14 +66,12 @@ namespace Domain.Test
             Assert.AreEqual(_instanceWatsonService.GetType(), typeof(Task<OutputConversaWatson>));
         }
 
-        //[Test]
-        //public void TesteExcecaoDaFuncaoDeWatsonService()
-        //{
-        //    //var _instanceWatsonService = _watsonService.EnviarMensagemAoWatson(_inputConversaWatson);
+        [Test]
+        public void TesteExcecaoDaFuncaoDeWatsonService()
+        {
+            _mockWatsonAgent.Setup(mock => mock.EnviarMensagemAoWatson(_inputConversaWatson)).Throws(new Exception());
 
-        //    _mockWatsonAgent.Setup(mock => mock.EnviarMensagemAoWatson(_inputConversaWatson)).Throws(new Exception());
-
-        //    Assert.Throws<Exception>(() => _watsonService.EnviarMensagemAoWatson(_inputConversaWatson));
-        //}
+            Assert.ThrowsAsync<Exception>(() =>  _watsonService.EnviarMensagemAoWatson(_inputConversaWatson));
+        }
     }
 }
