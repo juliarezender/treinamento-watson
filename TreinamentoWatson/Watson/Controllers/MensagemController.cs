@@ -29,27 +29,10 @@ namespace Watson.Controllers
 
                 return await _mensagemAppService.ProcessarMensagemAsync(mensagemEntrada);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return StatusCode(500);
+                throw ex;
             }
         }
-
-        //[Produces("application/json")]
-        //[Consumes("application/json")]
-        //[HttpGet]
-        //public string ProcessarMensagem(string mensagemEntrada)
-        //{
-        //    mensagemEntrada = mensagemEntrada + " entrou ";
-
-        //    return mensagemEntrada;
-        //}
-        //[Produces("application/json")]
-        //[Consumes("application/json")]
-        //[HttpGet]
-        //public string Teste()
-        //{
-        //    return "Funcionou";
-        //}
     }
 }

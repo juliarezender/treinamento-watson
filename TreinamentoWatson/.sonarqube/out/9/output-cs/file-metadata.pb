@@ -1,0 +1,12 @@
+k
+iC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\MensagemEntrada.csi
+gC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\MensagemSaida.csu
+sC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\AutenticacaoWatson.csj
+hC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\Generic.csv
+tC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\InputConversaWatson.csk
+iC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\Mensagem.csw
+uC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\OutputConversaWatson.cso
+mC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\OutputWatson.csl
+jC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\UserInput.cs¢
+ùC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csí
+çC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\obj\Debug\netcoreapp3.1\Domain.Modelos.AssemblyInfo.cs

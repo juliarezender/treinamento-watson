@@ -1,0 +1,10 @@
+r
+iC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\MensagemEntrada.csutf-8p
+gC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\MensagemSaida.csutf-8|
+sC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\AutenticacaoWatson.csutf-8q
+hC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\Generic.csutf-8}
+tC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\InputConversaWatson.csutf-8r
+iC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\Mensagem.csutf-8~
+uC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\OutputConversaWatson.csutf-8v
+mC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\OutputWatson.csutf-8s
+jC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Watson\UserInput.csutf-8

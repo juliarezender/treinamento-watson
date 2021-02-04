@@ -1,0 +1,10 @@
+z
+xC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\1-Host\MensagemControllerTest.csƒ
+€C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\2-Applications\MensagemAppServiceTest.cs}
+{C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\3-Domain\ConversationServiceTest.csw
+uC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\3-Domain\WatsonServiceTest.cs
+}C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\4-Infra\WatsonAccessAgentTokenTest.cst
+rC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\4-Infra\WatsonAgentTest.csv
+rC:\Users\julia\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs£
+žC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csž
+™C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\obj\Debug\netcoreapp3.1\AppService.TestsUnitarios.AssemblyInfo.cs

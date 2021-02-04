@@ -5,12 +5,14 @@ using Domain.Interfaces.Interface;
 using Domain.Modelos;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Diagnostics.CodeAnalysis;
 using TreinamentoWatson.Interfaces;
 using TreinamentoWatson.Watson;
 
 namespace IoC
 {
-    public class IocConfig
+    [ExcludeFromCodeCoverage]
+    public static class IocConfig
     {
         public static IServiceProvider ConfigureService(IServiceCollection services)
         {

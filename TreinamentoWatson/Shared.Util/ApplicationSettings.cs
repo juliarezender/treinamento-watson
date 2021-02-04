@@ -6,14 +6,10 @@ namespace Shared.Util
     public class ApplicationSettings : IApplicationSettings
     {
         private readonly IConfigurationSection _configuracoesApp;
-        private readonly IConfigurationSection _chavesResolver;
-        private readonly IConfiguration _configApp;
 
         public ApplicationSettings(IConfiguration configuracoes)
         {
             _configuracoesApp = configuracoes.GetSection("AppConfiguration");
-            _chavesResolver = configuracoes.GetSection("ResolverConfig");
-            _configApp = configuracoes;
         }
 
         #region Watson

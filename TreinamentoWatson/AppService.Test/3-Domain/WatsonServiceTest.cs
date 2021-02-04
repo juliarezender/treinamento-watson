@@ -1,5 +1,4 @@
 using AutoFixture;
-using AutoMapper;
 using Domain;
 using Domain.Modelos;
 using Domain.Modelos.Watson;
@@ -14,7 +13,6 @@ namespace AppService.TestsUnitarios._3_Domain
     public class WatsonServiceTest
     {
         private Fixture _fixture;
-        private readonly IMapper _mapper;
         private Mock<IWatsonAgent> _mockWatsonAgent;
         private WatsonService _watsonService;
         private InputConversaWatson _inputConversaWatson;
@@ -24,7 +22,7 @@ namespace AppService.TestsUnitarios._3_Domain
         {
             _fixture = new Fixture();
             _mockWatsonAgent = new Mock<IWatsonAgent>();
-            _watsonService = new WatsonService(_mockWatsonAgent.Object, _mapper);
+            _watsonService = new WatsonService(_mockWatsonAgent.Object);
             _inputConversaWatson = _fixture.Create<InputConversaWatson>();
 
         }

@@ -12,12 +12,10 @@ namespace Domain
     public class WatsonService : IWatsonService
     {
         private readonly IWatsonAgent _watsonAgent;
-        private readonly IMapper _mapper;
 
-        public WatsonService(IWatsonAgent watsonAgent, IMapper mapper)
+        public WatsonService(IWatsonAgent watsonAgent)
         {
             _watsonAgent = watsonAgent;
-            _mapper = mapper;
         }
         public async Task<OutputConversaWatson> EnviarMensagemAoWatson(InputConversaWatson mensagem)
         {
@@ -28,7 +26,7 @@ namespace Domain
             }
             catch(Exception)
             {
-                throw new Exception();
+                throw;
             }
 
         }

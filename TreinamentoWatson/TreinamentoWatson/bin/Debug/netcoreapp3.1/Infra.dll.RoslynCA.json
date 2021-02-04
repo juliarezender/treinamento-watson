@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "3.8.0.0",
+        "fileVersion": "3.8.0-5.20570.14 (6559f38c)",
+        "semanticVersion": "3.8.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "S3457",
+          "level": "warning",
+          "message": "Remove this formatting call and simply use the input string.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/julia/Desktop/Treinamento/treinamento-watson/TreinamentoWatson/TreinamentoWatson/Watson/WatsonAgent.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 20,
+                  "endLine": 47,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S3457": {
+          "id": "S3457",
+          "shortDescription": "Composite format strings should be used correctly",
+          "fullDescription": "Because composite format strings are interpreted at runtime, rather than validated by the compiler, they can contain errors that lead to unexpected behaviors or runtime errors. This rule statically validates the good behavior of composite formats when calling the methods of String.Format, StringBuilder.AppendFormat, Console.Write, Console.WriteLine, TextWriter.Write, TextWriter.WriteLine, Debug.WriteLine(String, Object[]), Trace.TraceError(String, Object[]), Trace.TraceInformation(String, Object[]), Trace.TraceWarning(String, Object[]) and TraceSource.TraceInformation(String, Object[]). ",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3457",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

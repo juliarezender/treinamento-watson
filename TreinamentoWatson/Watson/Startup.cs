@@ -8,9 +8,11 @@ using Microsoft.Extensions.Hosting;
 using Shared.Util;
 using Shared.Util.Interfaces;
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Watson
 {
+    [ExcludeFromCodeCoverage]
     public class Startup
     {
         public Startup(IConfiguration configuration)

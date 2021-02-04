@@ -1,0 +1,40 @@
+Product projects
+---------------------------------------
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Domain.Modelos.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\Domain.Interfaces.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService\AppService.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Shared.Util\Shared.Util.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\TreinamentoWatson\Infra.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain\Domain.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\IoC\IoC.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Watson\Watson.csproj
+
+
+Test projects
+---------------------------------------
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\AppService.TestsUnitarios.csproj
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Interfaces\Domain.Interfaces.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Shared.Util\Shared.Util.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService\AppService.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\TreinamentoWatson\Infra.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain\Domain.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\IoC\IoC.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Watson\Watson.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService.Test\AppService.TestsUnitarios.csproj
+C:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Domain.Modelos\Domain.Modelos.csproj
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

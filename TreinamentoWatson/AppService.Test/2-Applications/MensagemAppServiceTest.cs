@@ -1,4 +1,3 @@
-using AppService.Interfaces;
 using AutoFixture;
 using Domain.Interfaces.Interface;
 using Domain.Modelos;
@@ -7,9 +6,9 @@ using Moq;
 using NUnit.Framework;
 using System.Threading.Tasks;
 
-namespace AppService.Test
+namespace AppService.TestsUnitarios._2_Applications
 {
-    public class Tests
+    public class MensagemAppServiceTest
     {
         private Fixture _fixture;
         private Mock<IConversationService> _mockConversationService;
