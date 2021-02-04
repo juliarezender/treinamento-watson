@@ -2,5 +2,5 @@ projectKey=TreinamentoWatson
 serverUrl=http://localhost:9000
 serverVersion=7.6.0.21501
 dashboardUrl=http://localhost:9000/dashboard?id=TreinamentoWatson
-ceTaskId=AXdpM8R5JVK9JIEJKGvr
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXdpM8R5JVK9JIEJKGvr
+ceTaskId=AXds9AaaJVK9JIEJKGvu
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXds9AaaJVK9JIEJKGvu

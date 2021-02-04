@@ -1,20 +1,53 @@
-š
-tC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService\Interfaces\IMensagemAppService.cs
+´
+jC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Shared.Util\ApplicationSettings.cs
 
- (
+ $P
+/ @ ' 8& 7) :) :+ <* ;
 
-		 2
+
+
+ "
+
+
+2 ?  -
 
-		C R†
-hC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\AppService\MensagemAppService.cs
+ #
 
-		 #
-. B  ) =
+ "
 
- !
-7 J# 6
+ %
 
-) ?
-P _( 7
- U ]
-  % 5
+ %
+
+ '
+
+ &…
+kC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Shared.Util\Constantes\CacheKeys.cs
+
+ !
+
+ -
+gC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Shared.Util\Constantes\Rotas.cs
+
+ 
+
+ '
+
+  /Ì
+vC:\Users\julia\Desktop\Treinamento\treinamento-watson\TreinamentoWatson\Shared.Util\Interfaces\IApplicationSettings.cs
+
+ )
+
+ 
+
+ 
+
+ 
+
+ 
+
+		 
+
+
+
+  

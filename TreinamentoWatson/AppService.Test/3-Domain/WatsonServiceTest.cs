@@ -16,6 +16,7 @@ namespace AppService.TestsUnitarios._3_Domain
         private Mock<IWatsonAgent> _mockWatsonAgent;
         private WatsonService _watsonService;
         private InputConversaWatson _inputConversaWatson;
+        private Mensagem _mensagem;
 
         [SetUp]
         public void Setup()
@@ -24,6 +25,7 @@ namespace AppService.TestsUnitarios._3_Domain
             _mockWatsonAgent = new Mock<IWatsonAgent>();
             _watsonService = new WatsonService(_mockWatsonAgent.Object);
             _inputConversaWatson = _fixture.Create<InputConversaWatson>();
+            _mensagem = _fixture.Create<Mensagem>();
 
         }
 
@@ -43,6 +45,14 @@ namespace AppService.TestsUnitarios._3_Domain
             _mockWatsonAgent.Setup(mock => mock.EnviarMensagemAoWatson(_inputConversaWatson)).Throws(new Exception());
 
             Assert.ThrowsAsync<Exception>(() =>  _watsonService.EnviarMensagemAoWatson(_inputConversaWatson));
+        }
+
+        [Test]
+        public void TestePreencherMensagemWatson()
+        {
+            var chamadaPreencherMensagemWatson = _watsonService.PreencherMensagemWatson(_mensagem);
+
+            Assert.AreEqual(chamadaPreencherMensagemWatson.GetType(), typeof(InputConversaWatson));
         }
     }
 }
